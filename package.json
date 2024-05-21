@@ -1,0 +1,14 @@
+{
+  "name": "next-gen",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "next-gen": "node bin/gen.js"
+  },
+  "dependencies": {
+    "commander": "^12.1.0",
+    "readdirp": "^3.6.0",
+    "yargs": "^17.7.2"
+  }
+}
