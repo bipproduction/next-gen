@@ -1,14 +1,33 @@
 {
-  "name": "next-gen",
+  "name": "@malik_kurosaki/next-gen",
   "version": "1.0.0",
+  "description": "A tool to auto-generate API and page files in the Next.js framework.",
   "main": "index.js",
-  "license": "MIT",
-  "scripts": {
-    "next-gen": "node bin/gen.js"
+  "bin": {
+    "next-gen": "bin/gen.js"
   },
+  "scripts": {
+    "start": "node bin/gen.js"
+  },
+  "keywords": [
+    "nextjs",
+    "api",
+    "page",
+    "generator",
+    "automation"
+  ],
+  "author": "malikkurosaki <kurosakiblackangel@gmail.com>",
+  "license": "MIT",
   "dependencies": {
-    "commander": "^12.1.0",
     "readdirp": "^3.6.0",
     "yargs": "^17.7.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bipproduction/next-gen.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bipproduction/next-gen/issues"
+  },
+  "homepage": "https://github.com/bipproduction/next-gen#readme"
 }
